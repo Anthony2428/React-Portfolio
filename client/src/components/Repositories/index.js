@@ -43,7 +43,7 @@ const Repository = () => {
 
     const allJsx = repos.map(repo => {
         return(
-            <div class="column is-4 mb-5 box">        
+            <div class="column is-4 mb-5 box" style={{backgroundColor: "#878f99"}}>        
                 <div class="mb-4 is-flex">
                     <img class="image is-128x128" src={repo.image} alt=""/>
                 </div>

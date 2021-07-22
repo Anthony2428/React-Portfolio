@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-    <section className="section has-background-info-dark">
+    <section className="section">
       <div className="container">
         <Header />
         <Switch>

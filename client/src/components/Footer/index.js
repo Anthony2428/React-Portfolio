@@ -2,7 +2,7 @@ import React from "react";
 import Resume from "./assets/Resume.docx"
 const Footer = () => {
         return (
-        <footer className="footer">
+        <footer className="footer" style={{backgroundColor: "#878f99"}}>
             <header className="card-header">
                 <p className="card-header-title">Here's My Contact info</p>
                 <a href="https://www.linkedin.com/in/anthony-lopez-6b356218a/" className="card-footer-item">LinkedIn</a>
