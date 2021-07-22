@@ -10,11 +10,6 @@ const Footer = () => {
                 <a href="#" className="card-footer-item">425-501-2452</a>
                 <a href={Resume} downbload className="card-footer-item">Resume</a>
                 <a href="https://github.com/Anthony2428" className="card-footer-item">GitHub</a>
-                <button className="card-header-icon" aria-label="more options">
-                <span className="icon">
-                    <i className="fas fa-angle-down" aria-hidden="true"></i>
-                </span>
-                </button>
             </header>
           </footer>
     )
