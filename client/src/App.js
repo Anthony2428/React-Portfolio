@@ -1,16 +1,23 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import "./App.css";
 import Main from "./components/Main";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <section className="section">
-      <Nav />
+    <Router>
+    <section className="section has-background-info-dark">
       <div className="container">
-        <Main />
+        <Header />
+        <Switch>
+          <Route exact path="/projects" component={Main}/>
+        </Switch>
       </div>
+      <Footer />
     </section>
+    </Router>
   );
 }
 
