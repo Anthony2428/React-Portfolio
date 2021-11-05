@@ -30,7 +30,8 @@ const Repository = () => {
             name: "Employee Tracker",
             description: "A solution for managing a company's employees using node, inquirer, and MySQL",
             gitLink: "https://github.com/Anthony2428/Employee-Tracker",
-            image: EmployeeTracker
+            image: EmployeeTracker,
+            liveLink: "N/A ~ Console App",
         },
         {
             name: "Password Generator",
@@ -50,6 +51,7 @@ const Repository = () => {
                 <h2 class="mb-2 is-size-3 is-size-4-mobile has-text-weight-bold">{repo.name}</h2>
                 <p class="subtitle has-text-grey">{repo.description}</p>
                 <a href={repo.gitLink}>Github Link</a>
+                <a href={repo.liveLink}>Live Link</a>
             </div>
         );
     })
