@@ -1,9 +1,11 @@
 const express = require("express");
 const path = require("path");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
+const cors = require("cors");
 const app = express();
 
 // Define middleware here
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
